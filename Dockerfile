@@ -1,6 +1,6 @@
 FROM node:16-buster-slim
 
-WORKDIR /usr/src/smart-brain-api
+WORKDIR /usr/src/auth-sample-api
 
 COPY ./ ./
 

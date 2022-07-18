@@ -2,12 +2,12 @@ version: '3.8'
 
 services:
   #Backend API
-  smart-brain-api:
+  auth-sample-api:
     container_name: backend
     # image: node:lts-alpine3.14
     build: ./
     command: npm start
-    working_dir: /usr/src/smart-brain-api
+    working_dir: /usr/src/auth-sample-api
     environment:
       POSTGRES_USER: gabi
       POSTGRES_PASSWORD: 14-10=4
